@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping List</title>
+    <link rel="stylesheet" href="../src/css/style.css" />
+    <link rel="stylesheet" href="../src/css/nav.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <header class="animate__animated animate__fadeInDown">
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="/index.html">Global Recipe Explorer</a>
+            </div>
+            <div class="hamburger">&#9776;</div>
+            <ul id="menu" class="menu">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/public/submit-recipe.html" class="active">Submit Recipe</a></li>
+                <li><a href="/public/shopping-list.html">Shopping List</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <ul id="shoppingList"></ul>
+        <input type="text" id="newItem" placeholder="Add item..." />
+        <button id="addItemBtn">Add</button>
+        <button id="clearListBtn">Clear List</button>
+    </main>
+
+    <script type="module" src="../src/js/nav.js"></script>
+    <script type="module" src="../src/js/pages/shoppingListPage.js"></script>
+</body>
+
+</html>
