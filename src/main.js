@@ -1,7 +1,7 @@
 import './js/home.mjs';
 import '../src/css/styles.css';
 import './js/weekly.mjs';
-import { fetchRecipes, fetchCountryInfo, fetchCountryRecipes, fetchFilteredRecipes } from './js/api.mjs';
+import { fetchRecipes, fetchCountryInfo, fetchCountryRecipes, fetchFilteredRecipes } from './js/api.mjs'
 
 const dietFilter = document.getElementById('dietFilter');
 const weeklyBtn = document.getElementById('weeklyBtn');

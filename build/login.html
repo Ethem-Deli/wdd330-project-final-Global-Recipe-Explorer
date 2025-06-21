@@ -9,7 +9,27 @@
 </head>
 
 <body>
-    <div class="container">
+    <!-- Navigation -->
+    <header class="navbar">
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../public/images/logo.jpg" alt="Global Recipe Explorer Logo" />
+                    <span>Global Recipe Explorer</span>
+                </a>
+            </div>
+            <div class="hamburger">&#9776;</div>
+            <ul id="menu" class="menu">
+                <li><a href="../index.html" class="active">Home</a></li>
+                <li><a href="../public/countries.html">Countries</a></li>
+                <li><a href="../favorites.html">Favorites</a></li>
+                <li><a href="../public/login.html">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Login Form -->
+    <main class="main-wrapper">
         <div class="form-box">
             <form id="loginForm" class="form active">
                 <h2>Login</h2>
@@ -19,7 +39,8 @@
             </form>
             <p>Don't have an account? <a href="register.html">Register</a></p>
         </div>
-    </div>
+    </main>
+
     <script src="./js/auth.js"></script>
 </body>
 
